@@ -1,0 +1,75 @@
+@import url(' https://fonts.google.com/specimen/Raleway?preview.text_type=custom')
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1{
+    color: #fff;
+    font-size: 38px;
+    text-transform: uppercase;
+    max-width: 849px;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top: -355px;
+    margin-left: 780px;
+}
+.bg{
+    background-image: url(img/1bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 79vh;
+    position: relative;
+    z-index: -2;
+    margin-top: -600px;
+}
+/*
+.h2+p{
+    color: #2991d6;
+    font-size: 18px;
+    text-transform: uppercase;
+    max-width: 849px;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top: -355px;
+    margin-left: 350px;
+}
+*/
+.img-fit{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 24vh;
+    position: relative;
+    z-index: -1;
+  
+}
+.nav-link{
+    color: #444444;
+}
+.nav-link.active{
+    color: #2991d6;
+}
+.info-item
+.info-link{
+    color: #rgba(255,255,255,0.3)
+}
+.title h1{
+    color: #fff;
+}
+.btn{
+    color: #2991d6;
+}
+.box h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
